@@ -1,0 +1,691 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shubham's Portfolio</title>
+    <link
+      rel="shortcut icon"
+      href="images/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="images/mp.jpg"
+              alt="Shubham Shukla"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Ankur Jaiswal">Shubham Shukla</h1>
+
+            <p class="title">App Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:shuklashubham2005@gmail.com" class="contact-link"
+                  >shuklashubham2005@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">June 14, 2005</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Uttar Pradesh, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/shubham-shukla-06986230a/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100034481732814"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/_shubham._.shukla_/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              BCA graduate with <strong>5 months</strong> of interniship experience,
+              specialised in <strong>Android Development</strong> &<strong>
+              Cloud Computing</strong>.
+            </p>
+            <p>
+              Experience working with
+              <strong
+                >Microsoft Azure, JAVA, SQL, Firebase, Python, Tensorflow
+              </strong> &
+              <strong>C/C++</strong>. Also have hands on experience working
+              on <strong>Android Studio, Google Colab & Jupyter</strong> & various other
+              tech. I am very much interested in learning new stuff, trying new
+              technologies and learning something everyday.
+            </p>
+
+            <p>
+              My job is to build
+              <strong>apps, websites and provide cloud services</strong>
+              that is functional, modular and user-friendly but at the same
+              time attractive.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box1">
+                  <img
+                    src="Images/azure-removebg-preview.png"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Cloud Computing</h4>
+
+                  <p class="service-item-text">
+                    Hands on experience in designing, deploying, managing, and maintaining cloud infrastructure. 
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for Android
+                    using Andriod Studio.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - tech stacks
+        -->
+
+          <section class="tech">
+            <h3 class="h3 tech-title">Tech Stack</h3>
+
+            <ul class="tech-list has-scrollbar">
+              <li class="tech-item">
+                
+                <img src="Images/java-removebg-preview.png" alt="JAVA" />
+                <p class="tech-item-title">JAVA</p>
+              </li>
+
+              <li class="tech-item">
+                
+                <img src="Images/235-2350323_white-icon-office-365-png-white-icon-azure.png" alt="Azure" />
+                <p class="tech-item-title">Azure</p>
+              </li>
+
+              <li class="tech-item">
+                <img src="Images/c.png" alt="C/C++" />
+                <p class="tech-item-title">C/C++</p>
+              </li>
+
+              <li class="tech-item">
+                <img src="Images/javascript-logo.png" alt="JS" />
+                <p class="tech-item-title">Javascript</p>
+              </li>
+
+              <li class="tech-item">
+                <img src="Images/HTMK-removebg-preview.png" alt="html" />
+                <p class="tech-item-title">HTML</p>
+              </li>
+
+              <li class="tech-item">
+                <img src="Images/css-removebg-preview.png" alt="css" />
+                <p class="tech-item-title">CSS</p>
+              </li>
+
+              <li class="tech-item">
+                <img src="Images/py.png" alt="py" />
+                <p class="tech-item-title">Python</p>
+              </li>
+
+              <li class="tech-item">
+                <img src="Images/tensorflow.png" alt="tf" />
+                <p class="tech-item-title">Tensorflow</p>
+              </li>
+
+              <li class="tech-item">
+                <img src="Images/bootstrap.png" alt="bootstrap" />
+                <p class="tech-item-title">Bootstrap</p>
+              </li>
+
+              <li class="tech-item">
+                <img src="Images/images (1).png" alt="MySQL" />
+                <p class="tech-item-title">MySQL</p>
+              </li>
+
+              <li class="tech-item">
+                <img src="Images/firebass.png" alt="Firebase" />
+                <p class="tech-item-title">Firebase</p>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Chhatrapati Shahu Ji Maharaj University, Kanpur 
+                </h4>
+
+                <span>2023 - Present</span>
+
+                <p class="timeline-text">
+                  Bachelors of Computer Applications
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Kendriya Vidyalaya, Unnao, UP</h4>
+
+                <span>2023</span>
+
+                <p class="timeline-text">12th, CBSE, Science Stream</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Kendriya Vidyalaya, Unnao, UP</h4>
+
+                <span>2021</span>
+
+                <p class="timeline-text">10th, CBSE</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Internships & Trainings</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Gyanvriksha Publication - TechSupport</h4>
+
+                <span>1st Oct, 2024 — 31st Dec, 2024 </span>
+
+                <p class="timeline-text">
+                  Provided technical support by troubleshooting software and system issues to ensure smooth operations remotely.
+                  <br>
+                  •	Created meeting presentations to communicate key insights effectively.
+                  <br>
+                  •	Designed graphs and charts for data visualization and reporting. 
+                  <br>
+                  •	Provided software troubleshooting and technical support. 
+                  <br>
+                  •	Assisted in compiling reports and analysing findings for decision-making.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Yhills - JAVA Developer</h4>
+
+                <span>1st June 2024 — 30th July 2024</span>
+
+                <p class="timeline-text">
+                  Collaborated on group projects to develop and integrate various modules for different applications.
+                  <br>
+                  •	Received 97% satisfaction rating from customers after completed phone or video call.
+                  <br>
+                  •	Kept records of customer interactions, processed customer accounts and filed documents.
+                  <br>
+                  •	Collaborated with team to quickly resolve customer complaints with appropriate action.
+                  <br>
+                  •	Effectively managed approximately 100 incoming calls daily. 
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">WISSENAIRE - IIT BHUBANESHWAR</h4>
+
+                <span>1st July, 2023 — 31st August 2023</span>
+
+                <p class="timeline-text">
+                  Completed the course of <strong>Data Science and Data Analytics.<br></strong>
+                  These are the following skills I have worked on in this programe<br>
+                  • Python Basics for Data Science - Variables, loops, functions, and libraries (Pandas, NumPy).
+                  <br>
+                  • Working with CSV Files - Reading, writing, and manipulating CSV data using Pandas.
+                  <br>
+                  • SQL Integration - Connecting Python with SQL databases (SQLite, MySQL, PostgreSQL).
+                  <br>
+                  • Basic Data Analysis - Sorting, filtering, and summarizing data using Pandas.
+                  <br>
+                  • Data Visualization - Simple charts using Matplotlib or Seaborn.
+                  <br>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">TECHKRITI - IIT KANPUR</h4>
+
+                <span>28th March, 2025 - 31st March 2025</span>
+
+                <p class="timeline-text">
+                Attended a Three-Day AI & ML Workshop at IIT Kanpur (Organized by Techgyan)
+                <br>
+                • Gained hands-on experience in Artificial Intelligence (AI), Machine Learning (ML), and Generative AI (GenAI) using Python.
+                <br>
+                • Explored key concepts such as Neural Networks, Supervised & Unsupervised Learning, Natural Language Processing (NLP), and Computer Vision.
+                <br>
+                • Worked with popular libraries like TensorFlow, Scikit-Learn, OpenAI’s GPT, and Pandas for real-world applications.
+                <br>
+                • Secured 1st place in the final-day hackathon by developing an innovative project integrating AI, ML, and GenAI.
+                <br><br><br>
+                </p>
+              </li>
+            </ol>
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Core JAVA</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Cloud Computing - AZURE</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">C/C++</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Android Studio</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CSS</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Javascript</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Bootstrap</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SQL</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Firebase</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">TensorFlow</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - certifications
+        -->
+          <br />
+          <section class="timeline">
+            <h3 class="h3 service-title">Achievement & Certifications</h3>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <span>Qualified Rajya Puraskar in Bharat Scouting & Guiding</span>
+              </li>
+              <li class="timeline-item">
+                <span
+                  >Secured 1st position in internal Hackathon of college
+                </span>
+              </li>
+              <li class="timeline-item">
+                <span>Secured 1st Position in TechKriti Hackathon IIT Kanpur</span>
+              </li>
+              <li class="timeline-item">
+                <span>Certified in MS Tools - NEPL</span>
+              </li>
+              <li class="timeline-item">
+                <span>Certified as an AI Tools Expert - Be10X</span>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title" style="color: white;">Projects</h2>
+          </header>
+          <section class="projects">
+            
+            <!--<p class="project-category" style="color: white;">App Development</p>-->
+            <h4 style="color: rgb(110, 110, 110);">App Development</h4>
+            <br />
+            
+            <ul class="project-list" style="display: flex; flex-direction: column; gap: 20px;">
+              <li class="project-item active" data-filter-item data-category="app development">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <div style="display: flex; gap: 10px; pointer-events: none;">
+                    <img src="Images/wardenui.jpg" alt="Login System" loading="lazy" style="width: 150px; height: auto;" />
+                    <img src="Images/studentui.jpg" alt="Login System" loading="lazy" style="width: 150px; height: auto;" />
+                    <img src="Images/regnew.jpg" alt="Login System" loading="lazy" style="width: 150px; height: auto;" />
+                    <img src="Images/rules.jpg" alt="Login System" loading="lazy" style="width: 150px; height: auto;" />
+                    <img src="Images/stui.jpg" alt="Login System" loading="lazy" style="width: 150px; height: auto;" />
+                  </div>
+                </figure>
+                <h3 class="project-name" style="color: white;">ALLENPermit</h3>
+                <p class="project-description" style="color: white;">A real-time application made using JAVA on Android Studio with a Firebase backend. It has two interfaces: one for the warden, where they can approve or deny a hosteller's outpass request and enter details of new hostellers, and another for hostellers, where they can log in and apply for long and short types of passes. <strong>This application is currently being used in my college with 100% efficiency.</strong></p>
+              </li>
+<hr>
+
+              <h4 style="color: rgb(110, 110, 110);">Wed Development</h4>
+              <ul class="project-list" style="display: flex; flex-direction: column; gap: 20px;">
+                <li class="project-item active" data-filter-item data-category="web development">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <div style="display: flex; gap: 10px; overflow-x: auto; white-space: nowrap; scrollbar-width: none; -ms-overflow-style: none;">
+                      <img src="Images/land.jpg" alt="Login System" loading="lazy" style="width: 250px; height: auto;" />
+                      <img src="Images/quiz.jpg" alt="Login System" loading="lazy" style="width: 250px; height: auto;" />
+                      <img src="Images/herbassis.jpg" alt="Login System" loading="lazy" style="width: 250px; height: auto;" />
+                      <img src="Images/info.jpg" alt="Login System" loading="lazy" style="width: 250px; height: auto;" />
+                      <img src="Images/addyh.jpg" alt="Login System" loading="lazy" style="width: 250px; height: auto;" />
+                    </div>
+                  </figure>
+                  <h3 class="project-name" style="color: white;">Virtual Herbal Garden</h3>
+                  <p class="project-description" style="color: white;">A webpage made using HTML, CSS, JavaScript, Bootstrap, MySQL, and Node.js, featuring 3D models of plants made with Three.js. Users can view and download details, watch informative plant videos, and play quizzes if they spend too much time on the webpage. The site includes a Personal Herbal Assistant that provides information on any searched plant and a Snap and Search feature that allows users to take photos of plants and ask AI to identify and describe them. These AI features were implemented using APIs. Viewers can also send direct emails to the admin requesting the addition of new herbs to the website.</p>
+                </li>
+              </ul>
+              <hr>
+              <h4 style="color: rgb(110, 110, 110);">Cloud Computing - AZURE</h4>
+              <p class="project-category" style="color: white;">Cloud Computing - AZURE</p>
+              <li class="project-item active" data-filter-item data-category="cloud computing">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <div style="display: flex; gap: 10px;">
+                    <img src="Images/vm.png" alt="Login System" loading="lazy" style="width: 250px; height: auto;" />
+                  </div>
+                </figure>
+                <h3 class="project-name" style="color: white;">Hosting and Managing Virtual Machines in the Cloud</h3>
+                <p class="project-description" style="color: white;">Learning to host and manage virtual machines in the cloud has provided me with skills in provisioning, configuring, and scaling infrastructure. I gained hands-on experience with cloud platforms, enhanced my resource management, improved security practices, and automated workflows, laying the foundation for building efficient, scalable, and secure cloud-based solutions.</p>
+              </li>
+              <hr>
+              <h4 style="color: rgb(110, 110, 110);">Data Science & Data Analytics</h4>
+              <li class="project-item active" data-filter-item data-category="data science">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <div style="display: flex; gap: 10px;">
+                    <img src="Images/img.avif" alt="Login System" loading="lazy" style="width: 250px; height: auto;" />
+                    <img src="Images/xl.png" alt="Login System" loading="lazy" style="width: 250px; height: auto;" />
+                  </div>
+                </figure>
+                <h3 class="project-name" style="color: white;">Extracthon</h3>
+                <p class="project-description" style="color: white;">It's a Python-based scraper with filters for extracting or summarizing Excel data into the desired output. This tool can also generate new Excel files from the parent Excel file using filtered details.</p>
+              </li>
+            </ul>
+          </section>
+        </article>
+        
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
