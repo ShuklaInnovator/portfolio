@@ -563,11 +563,11 @@
   .service-icon-box1{
     margin: auto;
     margin-bottom: 5px;
-    width: 12vh;
-    height: 10vh;
+  /*  width: 12vh;
+    height: 10vh;*/
   }
   
-  .service-icon-box1 img {
+  .service-icon-box1{
     margin: auto;
     zoom: 2;
     
